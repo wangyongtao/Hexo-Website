@@ -3,18 +3,20 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
-timezone:
+
+title: IT-Blog
+subtitle: 专注于WEB开发
+description: WEB开发, PHP/MySQL/Javascript 
+author: wangyt
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://wangyongtao.com.cn
 root: /
-permalink: :year/:month/:day/:title/
+# permalink: :year/:month/:day/:title/
+permalink: posts/:title/
 permalink_defaults:
 
 # Directory
@@ -62,8 +64,14 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+# Sitemap Plugins: 
+sitemap:
+    path: sitemap.xml
+    template: ./sitemap_template.xml
+
 ## Themes: https://hexo.io/themes/
-theme: landscape
+#theme: landscape
+theme: hexo-theme-ibootstrap
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
