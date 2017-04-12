@@ -76,4 +76,6 @@ theme: hexo-theme-ibootstrap
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repository: https://github.com/wangyongtao/wangyongtao.github.io.git
+  branch: master
