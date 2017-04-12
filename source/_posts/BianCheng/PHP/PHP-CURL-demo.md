@@ -23,6 +23,8 @@ PHP支持的由Daniel Stenberg创建的libcurl库允许你与各种的服务器�
  
 下面的实例是使用curl请求baidu然后输出请求到的结果，会完整的展现和baidu首页一样的内容，即实现了页面的抓取。
 代码实例：
+
+```
    $testurl = ‘www.baidu.com’;  // test url
    $ch = curl_init();  // create curl resource       
    curl_setopt($ch, CURLOPT_URL, $testurl);  // set url $testurl   
@@ -31,17 +33,24 @@ PHP支持的由Daniel Stenberg创建的libcurl库允许你与各种的服务器�
    $output = curl_exec($ch); // $output contains the output string       
    curl_close($ch); // close curl resource to free up system resources
    echo $output;
+```
  
 我们可以看到，在PHP中我们使用CURL来抓取网站或者编写网站接口（使用json或xml来传递数据）。
 我们用curl_setopt() 来设置一个cURL传输选项，有一长串cURL参数可供设置，它们能指定URL请求的各个细节。由于参数较多，需要大家慢慢掌握，不过我们只要知道一些常用的参数即可，其他的随用随查。 
  
 使用POST传递数据的设置：
+
+```
   curl_setopt($ch, CURLOPT_POST, 1); //启用发送常规的POST请求
   curl_setopt($ch, CURLOPT_POSTFIELDS, $postData);  //$postData 是要post的数据
- 
+``` 
+
 设置cURL允许执行的最长秒数：
+
+```
   curl_setopt($ch, CURLOPT_TIMEOUT, 10); //执行10s
- 
+```
+
 cURL 函数
 
 curl_close — 关闭一个cURL会话
