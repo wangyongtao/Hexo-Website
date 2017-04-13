@@ -18,10 +18,11 @@ categories:
 点击【设置】 > 【POP3/SMTP/IMAP】: 
 
 服务器地址:
+
 ```
-    POP3服务器: pop.163.com
-    SMTP服务器: smtp.163.com
-    IMAP服务器: imap.163.com
+POP3服务器: pop.163.com
+SMTP服务器: smtp.163.com
+IMAP服务器: imap.163.com
 ```
 
 * 2. 获取客户端授权密码  
@@ -58,15 +59,15 @@ MAIL_FROM_NAME=cnwytnet
 修改`composer.json` 文件中 require 部分配置如下: 
 
 ```
-    "require": {
-        "php": ">=5.6.9",
-        "laravel/lumen-framework": "5.4.*",
-        "vlucas/phpdotenv": "~2.2",
-        "guzzlehttp/guzzle": "^6.2",
-        "predis/predis": "^1.1",
-        "illuminate/redis": "^5.4",
-        "illuminate/mail":"5.4.*"
-    }
+"require": {
+    "php": ">=5.6.9",
+    "laravel/lumen-framework": "5.4.*",
+    "vlucas/phpdotenv": "~2.2",
+    "guzzlehttp/guzzle": "^6.2",
+    "predis/predis": "^1.1",
+    "illuminate/redis": "^5.4",
+    "illuminate/mail":"5.4.*"
+}
 ```
 
 执行 `composer up`.
