@@ -156,6 +156,7 @@ Accept-Ranges: bytes
 ## Reference
 
 http://nginx.org/en/docs/http/ngx_http_headers_module.html 
+https://github.com/h5bp/server-configs-nginx  
 http://www.cnblogs.com/lpfuture/p/5798811.html  
 
 [END]
