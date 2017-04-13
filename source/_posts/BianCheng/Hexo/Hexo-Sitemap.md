@@ -48,3 +48,6 @@ Excluding Posts
 
 Add sitemap: false to the post's front matter.
 
+## 参考链接：
+
+https://github.com/hexojs/hexo-generator-sitemap 
