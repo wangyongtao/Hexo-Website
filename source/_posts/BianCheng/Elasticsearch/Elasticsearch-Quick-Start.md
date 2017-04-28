@@ -1,6 +1,6 @@
 ---
 title: Elasticsearch-Quick-Start
-date: {{ date }}
+date: 2017-04-12
 tags:
 - Elasticsearch
 categories:

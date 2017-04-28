@@ -1,7 +1,8 @@
 ---
 title: Hexo-快速入门指南
 date: 2017-04-12
-tags: Hexo
+tags: 
+- Hexo
 categories:
 - Hexo
 ---

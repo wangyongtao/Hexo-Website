@@ -1,7 +1,8 @@
 ---
 title: Hexo-如何增加导航栏(Menu)
 date: 2017-04-12
-tags: Hexo
+tags: 
+- Hexo
 categories:
 - Hexo
 ---
