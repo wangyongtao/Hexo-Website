@@ -1,7 +1,8 @@
 ---
 title: Hexo-在文章后边增加版权信息尾巴
 date: 2017-04-10 09:41:14
-tags: Hexo
+tags: 
+- Hexo
 categories:
 - Hexo
 ---
